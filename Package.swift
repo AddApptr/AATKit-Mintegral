@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -45,48 +45,48 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATMintegralAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATMintegralAdapter.zip",
-            checksum: "fb1af4a7f0686c13fb7d335114fb6b3e18c426c6f5bdf969e76081b0e0fb0bf6"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATMintegralAdapter.zip",
+            checksum: "f51c56b2dbf1db21f42e1752e9b4539f4721a47adcc536b1b123da77785de44a"
         ),
         .binaryTarget(
             name: "AATMTGSDKInterstitialVideo",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/MTGSDKInterstitialVideo.zip",
-            checksum: "64fafb6cf9fee20c982e0308654ae796153d8ed47d7de10888cd3b33f1293e82"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/MTGSDKInterstitialVideo.zip",
+            checksum: "6847975e6d2fc55e6088b387acbb31c685d32151af410e7948fc3d3404a591ea"
         ),
         .binaryTarget(
             name: "AATMTGSDKBanner",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/MTGSDKBanner.zip",
-            checksum: "831a71bc95e90e090a3798a93d4ee6c10f94721b0abc19348798153cd32c9d95"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/MTGSDKBanner.zip",
+            checksum: "b22fcd4f9fa075763ef891309484eeae11b0602684b73b2d93f26322ba7170a3"
         ),
         .binaryTarget(
             name: "AATMTGSDKBidding",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/MTGSDKBidding.zip",
-            checksum: "113106d0c9ffcf7bec5e917be3d50c4bf427b731151829c0a2b70789208d4017"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/MTGSDKBidding.zip",
+            checksum: "908c5b0a53035c87847d4068618c16a9edd2da8c7fab42c3830cebd55898e1a0"
         ),
         .binaryTarget(
             name: "AATMTGSDKReward",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/MTGSDKReward.zip",
-            checksum: "b0a37a796cc06c6e2042a20be8e2c6b79c5cfbe983aa24bb5a32e51107cf9c74"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/MTGSDKReward.zip",
+            checksum: "f0d5b3634a5c77f8f066e51a14de7c591832f200aeca6b260c410ff64d2dd092"
         ),
         .binaryTarget(
             name: "AATMTGSDKNativeAdvanced",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/MTGSDKNativeAdvanced.zip",
-            checksum: "26419d86399e88f98bf464474000bf606253a151521fe7773248f396ed4d55f6"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/MTGSDKNativeAdvanced.zip",
+            checksum: "6d9b2ddb19dcd75d3502a167a9486385947efed08d0dfcc81349a91bb2aa664d"
         ),
         .binaryTarget(
             name: "AATMTGSDKSplash",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/MTGSDKSplash.zip",
-            checksum: "91f8227ada2f4cfc7e5d45174d52d8f9f460357758e695c8462f88c4dbb2d4ff"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/MTGSDKSplash.zip",
+            checksum: "48d6be9bd42069a68ff50f6f331585f6c2f17e3f7d770f2a10a1798226e7ca3c"
         ),
         .binaryTarget(
             name: "AATMTGSDKNewInterstitial",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/MTGSDKNewInterstitial.zip",
-            checksum: "ff2dc143d00e13f4e7b5a7af604985b0d03470e3ff36c00187ddb3a2ad6e2e8e"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/MTGSDKNewInterstitial.zip",
+            checksum: "3cd884c2980d48011d4fb6ad2c5c1214299c3dcbf3e70895a347c76334cfb4f5"
         ),
         .binaryTarget(
             name: "AATMTGSDK",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/MTGSDK.zip",
-            checksum: "1755317f701c8872a1751978a3e30af6a68fbe4cefbdf17ce2198e8cba2e54f5"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/MTGSDK.zip",
+            checksum: "83dd5f39437b563df85c26475b2fc21fd3fde794b9c34dc0d020501c5bfc1353"
         ),
     ]
 )
